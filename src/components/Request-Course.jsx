@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import "../sass/request.css";
 
 export const RequestCourse = () => {
     const [credential,setCredential]=useState({
@@ -17,12 +18,12 @@ export const RequestCourse = () => {
     }
     return (
         <>
-         <div className="container-fluid2 text-center">
+         <div className="request-container text-center">
          <div className="top ">
-             <img src="https://gdurl.com/ef_Z" alt="" srcset=""/>
+             <img src="https://i.ibb.co/MPbvX2V/sign-in.png" alt="" srcset=""/>
          </div>
                  <div className="alert-zone text-center"></div>
-         <div className="bottom container">
+         <div className="input-container mt-5">
          <form action="/request-course" method="post" autoComplete="off">
              <input type="text" name="name" id="userName" placeholder="Username" onChange={ChangeInp} value={credential.name} required />
              <input type="email" name="gmail" id="userGmail" placeholder="Gmail" onChange={ChangeInp} value={credential.gmail} required />

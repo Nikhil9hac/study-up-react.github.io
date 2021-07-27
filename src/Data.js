@@ -1,7 +1,7 @@
 const studyData = [
     {
         name: "foundation-book",
-        imgSrc: "https://gdurl.com/uw17",
+        imgSrc: "https://i.ibb.co/NTsTkj8/foundation.jpg7",
         links: "/material/foundation",
         material_link:{
             "https://drive.google.com/file/d/13PsAYhwGTGurcPsy6x4KJihxXvvnMZS_/view?usp=sharing":"Challenges and thrill of pre-college mathematics",
@@ -18,7 +18,7 @@ const studyData = [
     },
     {
         name: "nstse",
-        imgSrc: "https://gdurl.com/qAtk",
+        imgSrc: "https://i.ibb.co/Hnc71v0/Nstse.png",
         links: "/material/nstse",
         question1: "what is Nstse",
         question2: "Examination level",
@@ -38,7 +38,7 @@ const studyData = [
     },
 {
     name: "ijso",
-    imgSrc: "https://gdurl.com/NMk9",
+    imgSrc: "https://i.ibb.co/Tgxhw0c/IJSO.jpg",
     links: "/material/ijso",
     question1: "what is iJSO",
     question2: "Examination level",
@@ -63,7 +63,7 @@ const studyData = [
 },
 {
     name: "ntse",
-        imgSrc: "https://gdurl.com/oc8E",
+        imgSrc: "https://i.ibb.co/NtyyYCf/ntse.jpg",
         links: "/material/ntse",
         question1: "What is NTSE",
         question2: "Examination level",
@@ -86,7 +86,7 @@ const studyData = [
 },
 {
     name: "imo",
-    imgSrc: "https://gdurl.com/JVv7",
+    imgSrc: "https://i.ibb.co/k0xQ3kr/IMO.png",
     links: "/material/imo",
     question1: "What is SOF Math Olymiad",
     question2: "Examination Level",
@@ -107,7 +107,7 @@ const studyData = [
 },
 {
     name: "nso",
-    imgSrc: "https://gdurl.com/dj3l",
+    imgSrc: "https://i.ibb.co/wcj2TsF/Sof.jpg",
     links: "/material/nso",
     question1: "What is SOF Science Olymiad",
     question2: "Examination Level",
@@ -128,7 +128,7 @@ const studyData = [
 },
 {
     name: "technolthlon",
-    imgSrc: "https://gdurl.com/KLB4",
+    imgSrc: "https://i.ibb.co/8B2pxqV/Tech.png",
     links: "/material/technolthlon",
     question1: "What is Technolthon",
     question2: "Examination level",

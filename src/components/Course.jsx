@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import studyData from "../Data.js";
+import "../sass/olymiad.css";
 export const changeDoc=(event)=>{
     let pyqs=document.querySelector('.pyqs');
     let details=document.querySelector('.details');
@@ -41,7 +42,7 @@ export const Course = () => {
     const online=register["online"];
     return (
         <>
-        <div className="olymiad">
+        <div className="olymiad  mt-5">
             <div className="olymiad-image text-center"><img src={findCourse[0].imgSrc} alt=""/></div>
             <div className="olymiad-option text-center">
                 <button className="olymiad-inform"onClick={changeDoc}><i className="fas fa-info"
@@ -58,7 +59,7 @@ export const Course = () => {
         <div className="olymaid-target" id="target" data-target="ntse" style={{color:"#fff"}}>
             <p className="text-center  zone"><u>Details</u></p>
             <div className="details">
-                <p className="question">{findCourse[0].question1}</p>
+                <p className="question ">{findCourse[0].question1}</p>
                 <p className="answer">{findCourse[0].answer1}</p>
                 <p className="question">{findCourse[0].question2}</p>
                 <p className="answer">{findCourse[0].answer2}</p>
@@ -89,14 +90,14 @@ export const Course = () => {
                 <ul className="register-widget">
                     {Object.keys(register).includes('offline')?<p className="fs-2 m-3 text-info" style={{letterSpacing:'1.5px'}}>Offline</p>:null}
                    {Object.keys(register).includes('offline')?
-                   offline.map((val)=><li>{val}</li>):null
+                   offline.map((val)=><li><p>{val}</p></li>):null
                    }
                 </ul> 
                 <ul className="register-widget">
                     {Object.keys(register).includes('online')?
                     <p className="fs-2 m-3 text-info" style={{letterSpacing:'1.5px'}}>Online</p>:null}
                    {Object.keys(register).includes('online')?
-                   online.map((val)=><li>{val}</li>):null
+                   online.map((val)=><li><p>{val}</p></li>):null
                    }
                 </ul> 
          </div>

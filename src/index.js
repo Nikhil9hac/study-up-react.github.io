@@ -3,14 +3,9 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import { Router } from "./Router.jsx";
+import "./sass/nav.css"
 // import { Header,StudyMaterial } from './components/App.jsx';
-import "./font.css";
-import "./header.css";
-import "./material.css";
-import "./foundation.css";
-import "./footer.css";
-import "./contact.css";
-import "./olymiad.css"
+
 
 ReactDOM.render(
  <>

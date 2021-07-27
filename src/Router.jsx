@@ -43,7 +43,7 @@ export const Router=()=>{
                     </>
                 )
             }} />
-                <Route exact path="/material/technolthlon" component={()=>{
+                <Route exact path="/material/technothlon" component={()=>{
                     return(
                         <>
                         <Nav/>
